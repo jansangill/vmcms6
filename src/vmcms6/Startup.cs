@@ -79,6 +79,13 @@ namespace vmcms6
             // Add MVC to the request pipeline.
             app.UseMvc(routes =>
             {
+
+                // add the new route here.
+                routes.MapRoute(
+                    name: "areaRoute",
+                    template: "{area:exists}/{controller}/{action}",
+                    defaults: new { controller = "Home", action = "Index" });
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller}/{action}/{id?}",
