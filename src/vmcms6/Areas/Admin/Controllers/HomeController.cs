@@ -4,6 +4,7 @@
 
 namespace vmcms6.Areas.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class HomeController : Controller
     {

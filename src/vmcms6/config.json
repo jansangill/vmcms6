@@ -1,7 +1,7 @@
 {
     "Data": {
         "DefaultConnection": { 
-            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-vmcms6-0eeaac54-b2ee-4ab9-b052-13d87cdc879b;Trusted_Connection=True;MultipleActiveResultSets=true"
+            "ConnectionString": "Server=localhost\\SQLEXPRESS;Database=vmcms6;integrated security=True"
         }
     },
     "EntityFramework": {
